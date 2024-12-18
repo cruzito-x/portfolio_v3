@@ -1,21 +1,26 @@
 import { Card, Collapse } from "antd";
 import { projectsData } from "../../data/portfolio";
-import './projects.css';
+import "./projects.css";
+
 const { Meta } = Card;
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div className="projects my-3" style={{ padding: "0 !important" }}>
       <div className="d-flex justify-content-center">
-        <h1 className="font-weight-bold my-3">Projects Portfolio</h1>
+        <div className="text-center my-3">
+          <h1 className="font-weight-bold">Portfolio</h1>
+          <h5 className="font-weight-bold subtitle"> My Projects </h5>
+        </div>
       </div>
       <div className="portfolio d-flex flex-wrap justify-content-center">
         {projectsData.map((project) => (
           <Card
+            className="mb-3"
             key={project.id}
             hoverable
             style={{
-              width: 400,
+              width: 450,
               margin: "15px",
               borderRadius: "10px",
               overflow: "hidden",
@@ -26,77 +31,66 @@ const Projects = () => {
                 src={project.image}
                 style={{
                   height: "250px",
-                  objectFit: "cover",
                   borderRadius: "10px",
                 }}
               />
             }
           >
-            <Meta
-              title={project.title}
-              description={
-                <p>
-                  {project.description} <br />{" "}
-                  <Collapse
-                    size="small"
-                    items={[
-                      {
-                        key: project.id,
-                        label: "Technologies Used",
-                        children: (
-                          <div className="tech-icons d-flex flex-wrap gap-2">
-                            {project.techs.map((tech) => (
-                              <div
-                                key={tech.id}
-                                style={{
-                                  display: "flex",
-                                  alignItems: "center",
-                                  marginRight: "10px",
-                                }}
-                              >
-                                {tech.icon}{" "}
-                                <span className="ml-1">{tech.name}</span>
-                              </div>
-                            ))}
-                          </div>
-                        ),
-                      },
-                    ]}
-                  />
-                </p>
-              }
+            <Meta title={project.title} description={project.description} />
+            <Collapse
+              className="mt-3"
+              items={[
+                {
+                  key: project.id,
+                  label: "Technologies Used",
+                  children: (
+                    <div className="tech-icons d-flex flex-wrap gap-2">
+                      {project.techs.map((tech) => (
+                        <div
+                          key={tech.id}
+                          style={{
+                            display: "flex",
+                            alignItems: "center",
+                            marginRight: "10px",
+                          }}
+                        >
+                          {tech.icon} <span>{tech.name}</span>
+                        </div>
+                      ))}
+                    </div>
+                  ),
+                },
+              ]}
             />
-            {project.deploy_url && (
-              <>
+            <div className="mt-3">
+              {project.deploy_url && (
                 <button
                   type="button"
-                  className="btn btn-primary"
+                  className="btn btn-primary mr-2"
                   onClick={() => window.open(project.deploy_url, "_blank")}
                 >
                   <i className="bx bx-code"></i> Deploy
                 </button>
-              </>
-            )}
-
-            {project.source_url && (
-              <button
-                type="button"
-                className="btn btn-primary m-2"
-                onClick={() => window.open(project.source_url, "_blank")}
-              >
-                <i className="bx bxl-github"></i> Source
-              </button>
-            )}
-
-            {project.design_url && (
-              <button
-                type="button"
-                className="btn btn-primary m-2"
-                onClick={() => window.open(project.design_url, "_blank")}
-              >
-                <i className="bx bxl-figma"></i> Source
-              </button>
-            )}
+              )}
+              {project.source_url && (
+                <button
+                  type="button"
+                  className="btn btn-primary mr-2"
+                  onClick={() => window.open(project.source_url, "_blank")}
+                >
+                  <i className="bx bxl-github"></i> Source
+                </button>
+              )}
+              {project.design_url && (
+                <button
+                  type="button"
+                  className="btn btn-primary mr-2"
+                  onClick={() => window.open(project.design_url, "_blank")}
+                >
+                  <i className="bx bxl-figma"></i> Design
+                </button>
+              )}
+            </div>
           </Card>
         ))}
       </div>

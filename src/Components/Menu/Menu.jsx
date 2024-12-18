@@ -20,7 +20,7 @@ const App = () => {
           <a href="#experience">Experience</a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a href="#projects">Portfolio</a>
         </li>
         <li>
           <a
