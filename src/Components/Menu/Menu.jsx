@@ -32,6 +32,12 @@ const App = () => {
             Say Hello{" "}
           </a>
         </li>
+        <li>
+          <a>
+            {" "}
+            <i className="bx bx-moon"></i>{" "}
+          </a>
+        </li>
       </ul>
     </nav>
   );

@@ -12,6 +12,12 @@ html {
   scroll-behavior: smooth;
 }
 
+
+button {
+  outline: none !important;
+  cursor: pointer !important;
+}
+
 .home, .contact {
   background-color: #ffffff;
 }

@@ -1,8 +1,22 @@
 import { Timeline } from "antd";
+import $ from "jquery";
 import "./experience.css";
-import './experience';
 
 const Experience = () => {
+  $(function () {
+    $("#academic-timeline").hide();
+
+    $("#academic-timeline-btn").click(function () {
+      $("#academic-timeline").show();
+      $("#laboral-timeline").hide();
+    });
+
+    $("#laboral-timeline-btn").click(function () {
+      $("#academic-timeline").hide();
+      $("#laboral-timeline").show();
+    });
+  });
+
   return (
     <div className="experience" id="experience">
       <div className="d-flex justify-content-center">
@@ -12,22 +26,22 @@ const Experience = () => {
         </div>
       </div>
       <div className="d-flex justify-content-center">
-          <button
-            className="font-weight-bold sub-subtitle mr-2"
-            id="laboral-timeline-btn"
-          >
-            <i className='bx bxs-briefcase'></i>
-            Experience
-          </button>
-          |
-          <button
-            className="font-weight-bold sub-subtitle ml-2"
-            id="academic-timeline-btn"
-          >
-            <i className='bx bxs-graduation'></i>
-            Education
-          </button>
-        </div>
+        <button
+          className="font-weight-bold border-0 sub-subtitle mr-2"
+          id="laboral-timeline-btn"
+        >
+          <i className="bx bxs-briefcase"></i>
+          Experience
+        </button>
+        |
+        <button
+          className="font-weight-bold border-0 sub-subtitle ml-2"
+          id="academic-timeline-btn"
+        >
+          <i className="bx bxs-graduation"></i>
+          Education
+        </button>
+      </div>
       <div className="d-flex justify-content-center mt-4">
         <Timeline
           id="laboral-timeline"
@@ -68,7 +82,7 @@ const Experience = () => {
               children: [
                 <>
                   <h6 className="font-weight-bold">
-                    Pre-especiality at [Pre-especiality name]
+                    Pre-especiality at Data Science
                   </h6>
                   <h6 className="font-weight-light">
                     {" "}
