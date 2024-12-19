@@ -1,4 +1,4 @@
-import "../../styles/menu.css";
+import "./menu.css";
 
 const App = () => {
   return (
@@ -14,19 +14,19 @@ const App = () => {
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#skills">Skills</a>
-        </li>
-        <li>
           <a href="#experience">Experience</a>
         </li>
         <li>
-          <a href="#projects">Portfolio</a>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#portfolio">Portfolio</a>
         </li>
         <li>
           <a
             href="#contact"
             className="btn btn-primary"
-            style={{ "margin-top": "-7px" }}
+            style={{ marginTop: "-7px" }}
           >
             {" "}
             Say Hello{" "}

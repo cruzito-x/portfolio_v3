@@ -8,10 +8,15 @@
   font-family: 'Montserrat', system-ui;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .home, .contact {
   background-color: #ffffff;
 }
 
-.projects {
+.experience, .portfolio {
+  padding: 0 !important;
   background-color: #eff1f6;
 }

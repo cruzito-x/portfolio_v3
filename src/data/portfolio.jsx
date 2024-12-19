@@ -14,74 +14,93 @@ import Work9 from "../assets/img/Designs/work2.png";
 const techData = {
  html: {
   name: "HTML",
-  icon: <i className="bx bxl-html5" style={{ color: "var(--text-color)" }}></i>
+  color: "orange",
+  icon: <i className="bx bxl-html5"></i>
  },
  css: {
   name: "CSS",
-  icon: <i className="bx bxl-css3" style={{ color: "var(--text-color)" }}></i>
+  color: "processing",
+  icon: <i className="bx bxl-css3"></i>
  },
  javascript: {
   name: "JavaScript",
-  color: "var(--js-color)",
-  icon: <i className="bx bxl-javascript" style={{ color: "var(--js-color)" }}></i>
+  color: "warning",
+  icon: <i className="bx bxl-javascript"></i>
  },
  typescript: {
   name: "TypeScript",
-  icon: <i className="bx bxl-typescript" style={{ color: "var(--text-color)" }}></i>
+  color: "blue",
+  icon: <i className="bx bxl-typescript"></i>
  },
  bootstrap: {
   name: "Bootstrap",
-  icon: <i className="bx bxl-bootstrap" style={{ color: "var(--text-color)" }}></i>
+  color: "purple",
+  icon: <i className="bx bxl-bootstrap"></i>
  },
  jQuery: {
   name: "jQuery",
-  icon: <i className="bx bxl-jquery" style={{ color: "var(--js-color)" }}></i>
+  color: "blue",
+  icon: <i className="bx bxl-jquery"></i>
  },
  node : {
   name: "Node.js",
-  icon: <i className="bx bxl-nodejs" style={{ color: "var(--text-color)" }}></i>
+  color: "lime",
+  icon: <i className="bx bxl-nodejs"></i>
  },
  react: {
   name: "React.js",
-  icon: <i className="bx bxl-react" style={{ color: "var(--text-color)" }}></i>
+  color: "cyan",
+  icon: <i className="bx bxl-react"></i>
  },
  antd: {
-  name: "Ant Design"
+  name: "Ant Design",
+  color: "cyan",
+  icon: <i className="bx bxl-react"></i>
  },
  angular: {
   name: "Angular",
-  icon: <i className="bx bxl-angular" style={{ color: "var(--text-color)" }}></i>
+  color: "red",
+  icon: <i className="bx bxl-angular"></i>
  },
  flutter: {
   name: "Flutter",
-  icon: <i className="bx bxl-flutter" style={{ color: "var(--text-color)" }}></i>
+  color: "processing",
+  icon: <i className="bx bxl-flutter" ></i>
  },
  java: {
   name: "Java",
-  icon: <i className="bx bxl-java" style={{ color: "var(--text-color)" }}></i>
+  color: "volcano",
+  icon: <i className="bx bxl-java" ></i>
  },
  express: {
-  name: "Express.js"
+  name: "Express.js",
+  color: "default",
+  icon: <i className="bx bxl-nodejs"></i>
  },
  mysql: {
   name: "MySQL",
-  icon: <i className="bx bxs-data" style={{ color: "var(--text-color)" }}></i>
+  color: "blue",
+  icon: <i className="bx bxs-data"></i>
  },
  sqlserver: {
   name: "SQL Server",
-  icon: <i className="bx bxs-data" style={{ color: "var(--text-color)" }}></i>
+  color: "geekblue",
+  icon: <i className="bx bxs-data"></i>
  },
  mongodb: {
   name: "MongoDB",
-  icon: <i className="bx bxl-mongodb" style={{ color: "var(--text-color)" }}></i>
+  color: "green",
+  icon: <i className="bx bxl-mongodb"></i>
  },
  figma: {
   name: "Figma",
-  icon: <i className="bx bxl-figma" style={{ color: "var(--text-color)" }}></i>
+  color: "red",
+  icon: <i className="bx bxl-figma"></i>
  },
  photoshop: {
   name: "Photoshop",
-  icon: <i className="bx bxl-droplet-half" style={{ color: "var(--text-color)" }}></i>
+  color: "geekblue",
+  icon: <i className="bx bxl-droplet-half"></i>
  }
 };
 
@@ -96,15 +115,18 @@ export const projectsData = [
    {
     id: 1,
     icon: techData.bootstrap.icon,
+    color: techData.bootstrap.color,
     name: techData.bootstrap.name
    },
    {
     id: 2,
     icon: techData.react.icon,
+    color: techData.react.color,
     name: techData.react.name
    }
   ],
-  deploy_url: "https://movies-app-cruzito-exe.vercel.app"
+  deploy_url: "https://movies-app-cruzito-exe.vercel.app",
+  source_url: "https://github.com/cruzito-x/movies_app"
  },
  {
   id: 2,
@@ -116,20 +138,24 @@ export const projectsData = [
    {
     id: 1,
     icon: techData.html.icon,
+    color: techData.html.color,
     name: techData.html.name
    },
    {
     id: 2,
     icon: techData.css.icon,
+    color: techData.css.color,
     name: techData.css.name
    },
    {
     id: 3,
     icon: techData.jQuery.icon,
+    color: techData.jQuery.color,
     name: techData.jQuery.name
    }
   ],
-  deploy_url: "https://weather-app-v2-one.vercel.app"
+  deploy_url: "https://weather-app-v2-one.vercel.app",
+  source_url: "https://github.com/cruzito-x/weather-app"
   },
   {
    id: 3,
@@ -141,11 +167,13 @@ export const projectsData = [
     {
      id: 1,
      icon: techData.bootstrap.icon,
+     color: techData.bootstrap.color,
      name: techData.bootstrap.name
     },
     {
      id: 2,
      icon: techData.react.icon,
+     color: techData.react.color,
      name: techData.react.name
     }
    ],
@@ -161,22 +189,25 @@ export const projectsData = [
    techs: [
     {
      id: 1,
-     
      icon: techData.html.icon,
+     color: techData.html.color,
      name: techData.html.name
     },
     {
      id: 2,
      icon: techData.css.icon,
+     color: techData.css.color,
      name: techData.css.name
     },
     {
      id: 3,
      icon: techData.javascript.icon,
+     color: techData.javascript.color,
      name: techData.javascript.name
     }
    ],
-   deploy_url: "https://translator-app-cruzito-exe.vercel.app"
+   deploy_url: "https://translator-app-cruzito-exe.vercel.app",
+   source_url: "https://github.com/cruzito-x/translator_app"
   },
   {
    id: 5,
@@ -188,16 +219,19 @@ export const projectsData = [
     {
      id: 1,
      icon: techData.react.icon,
+     color: techData.react.color,
      name: techData.react.name
     },
     {
      id: 2,
      icon: techData.node.icon,
+     color: techData.node.color,
      name: techData.node.name
     },
     {
      id: 3,
      icon: techData.mongodb.icon,
+     color: techData.mongodb.color,
      name: techData.mongodb.name
     }
    ],
@@ -212,17 +246,20 @@ export const projectsData = [
    techs: [
     {
      id: 1,
-     icon: techData.react.icon,
-     name: techData.react.name
+     icon: techData.antd.icon,
+     color: techData.antd.color,
+     name: techData.antd.name
     },
     {
      id: 3,
-     icon: techData.node.icon,
+     icon: techData.express.icon,
+     color: techData.express.color,
      name: techData.express.name
     },
     {
      id: 4,
      icon: techData.mysql.icon,
+     color: techData.mysql.color,
      name: techData.mysql.name
     }
    ],
@@ -238,16 +275,19 @@ export const projectsData = [
     {
       id: 1,
       icon: techData.angular.icon,
+      color: techData.angular.color,
       name: techData.angular.name
      },
      {
       id: 2,
-      icon: techData.node.icon,
+      icon: techData.express.icon,
+      color: techData.express.color,
       name: techData.express.name
      },
      {
       id: 3,
       icon: techData.mongodb.icon,
+      color: techData.mongodb.color,
       name: techData.mongodb.name
      }
     ],
@@ -263,6 +303,7 @@ export const projectsData = [
      {
       id: 1,
       icon: techData.figma.icon,
+      color: techData.figma.color,
       name: techData.figma.name
      }
     ],
@@ -278,6 +319,7 @@ export const projectsData = [
      {
       id: 1,
       icon: techData.figma.icon,
+      color: techData.figma.color,
       name: techData.figma.name
      }
     ],

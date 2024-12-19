@@ -2,7 +2,7 @@ import { Card, Input } from "antd";
 
 const Contact = () => {
   return (
-    <div className="contact my-3">
+    <div className="contact my-3" id="contact">
       <div className="d-flex justify-content-center">
         <div className="text-center my-3">
           <h1 className="font-weight-bold">Contact me</h1>

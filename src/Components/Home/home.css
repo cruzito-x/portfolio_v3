@@ -1,3 +1,53 @@
 .home {
   height: 100vh;
+  padding: 75px;
 }
+
+.big-text {
+  font-size: 5rem;
+}
+
+.profession {
+  font-size: 1.5rem;
+}
+
+.paragraph {
+  font-size: 1.2rem;
+}
+
+.home_hand {
+  width: 5rem;
+  height: 5rem;
+  margin-left: 1rem;
+  position: relative;
+  animation-name: greet;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+ }
+
+ .hello-btn {
+  background-color: #5698ED;
+  color: #ffffff;
+  padding: 20px 40px;
+  border-radius: 5px;
+  font-size: 17px;
+  transition: background-color 0.3s ease;
+ }
+
+ @keyframes greet {
+  0%, 100% {
+   transform: rotate(0deg);
+  }
+ 
+  25% {
+   transform: rotate(35deg);
+  }
+ 
+  50% {
+   transform: rotate(0deg);
+  }
+ 
+  75% {
+   transform: rotate(-35deg);
+  }
+ }

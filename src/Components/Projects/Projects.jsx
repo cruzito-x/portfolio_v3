@@ -1,4 +1,4 @@
-import { Card, Collapse } from "antd";
+import { Card, Collapse, Tag } from "antd";
 import { projectsData } from "../../data/portfolio";
 import "./projects.css";
 
@@ -6,7 +6,7 @@ const { Meta } = Card;
 
 const Projects = () => {
   return (
-    <div className="projects my-3" style={{ padding: "0 !important" }}>
+    <div className="portfolio my-3" id="portfolio" style={{ padding: "0 !important" }}>
       <div className="d-flex justify-content-center">
         <div className="text-center my-3">
           <h1 className="font-weight-bold">Portfolio</h1>
@@ -50,11 +50,12 @@ const Projects = () => {
                           key={tech.id}
                           style={{
                             display: "flex",
-                            alignItems: "center",
-                            marginRight: "10px",
+                            alignItems: "center"
                           }}
                         >
-                          {tech.icon} <span>{tech.name}</span>
+                          <Tag color={tech.color}>
+                          {tech.icon} {tech.name}
+                          </Tag>
                         </div>
                       ))}
                     </div>
@@ -69,7 +70,7 @@ const Projects = () => {
                   className="btn btn-primary mr-2"
                   onClick={() => window.open(project.deploy_url, "_blank")}
                 >
-                  <i className="bx bx-code"></i> Deploy
+                  <i className="bx bx-expand-alt"></i> Deploy
                 </button>
               )}
               {project.source_url && (
