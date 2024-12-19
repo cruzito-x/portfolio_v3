@@ -2,9 +2,9 @@ import "./menu.css";
 
 const App = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar p-4">
       <div className="first-name">
-        David<span className="last-name">Cruz</span>
+        David <span className="last-name">Cruz</span>
       </div>
       <ul className="navbar-menu">
         <li>

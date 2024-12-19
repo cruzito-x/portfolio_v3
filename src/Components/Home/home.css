@@ -18,7 +18,7 @@
 .home_hand {
   width: 5rem;
   height: 5rem;
-  margin-left: 1rem;
+  margin-top: -15px;
   position: relative;
   animation-name: greet;
   animation-duration: 1.5s;
