@@ -6,12 +6,12 @@ const Experience = () => {
   $(function () {
     $("#academic-timeline").hide();
 
-    $("#academic-timeline-btn").click(function () {
+    $("#academic-timeline-btn").on('click', () => {
       $("#academic-timeline").show();
       $("#laboral-timeline").hide();
     });
 
-    $("#laboral-timeline-btn").click(function () {
+    $("#laboral-timeline-btn").on('click', () => {
       $("#academic-timeline").hide();
       $("#laboral-timeline").show();
     });
@@ -22,7 +22,7 @@ const Experience = () => {
       <div className="d-flex justify-content-center">
         <div className="text-center my-3">
           <h1 className="font-weight-bold">Experience</h1>
-          <h5 className="font-weight-bold subtitle"> My history </h5>
+          <h5 className="font-weight-bold subtitle"> My History </h5>
         </div>
       </div>
       <div className="d-flex justify-content-center mt-5">
@@ -75,15 +75,15 @@ const Experience = () => {
         />
 
         <Timeline
-          mode="alternate"
           id="academic-timeline"
+          mode="alternate"
           items={[
             {
               key: "academic-1",
               children: [
                 <>
                   <h6 className="font-weight-bold">
-                    Pre-especiality at Data Science
+                    Pre-especiality in Data Science
                   </h6>
                   <h6 className="font-weight-light">
                     {" "}

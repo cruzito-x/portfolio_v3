@@ -8,33 +8,86 @@
 }
 
 .profession {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .paragraph {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .home_hand {
-  width: 5rem;
-  height: 5rem;
-  margin-top: -15px;
-  position: relative;
+  width: 4rem;
+  height: 4rem;
+  margin-top: -10px;
   animation-name: greet;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
- }
+}
 
- .hello-btn {
-  background-color: #5698ED;
+.hello-btn {
+  background-color: #5698ed;
   color: #ffffff;
-  padding: 20px 40px;
+  padding: 15px 30px;
   border-radius: 5px;
-  font-size: 17px;
+  font-size: 1rem;
   transition: background-color 0.3s ease;
- }
+}
 
- @keyframes greet {
+.hello-btn:hover {
+  background-color: #3d6db0;
+}
+
+.profile-img {
+  max-height: 550px;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .big-text {
+    font-size: 2.5rem;
+  }
+
+  .profession {
+    font-size: 1rem;
+  }
+
+  .paragraph {
+    font-size: 0.9rem;
+  }
+
+  .home_hand {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .hello-btn {
+    font-size: 1rem;
+  }
+
+  .profile-img {
+    max-height: 300px;
+  }
+
+  .home {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .big-text {
+    font-size: 2.4rem;
+  }
+
+  .paragraph {
+    font-size: .9rem;
+  }
+
+  .hello-btn {
+    font-size: 1rem;
+  }
+}
+
+@keyframes greet {
   0%, 100% {
    transform: rotate(0deg);
   }

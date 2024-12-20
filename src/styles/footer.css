@@ -1,0 +1,28 @@
+.footer {
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.footer label {
+  font-size: 14px;
+}
+
+.big {
+  font-size: 32px;
+}
+
+.card {
+  background-color: #267cec;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform .5s;
+}
+
+.footer i {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}

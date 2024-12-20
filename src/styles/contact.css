@@ -1,0 +1,24 @@
+.contact {
+  padding: 75px;
+}
+.card-responsive {
+  width: 90%; /* Cards ocupan 90% del contenedor */
+  max-width: 500px; /* Límite máximo para evitar que se vean demasiado grandes */
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 auto; /* Centra las cards */
+}
+
+@media (max-width: 768px) {
+  .card-responsive {
+    width: 95%; /* En dispositivos más pequeños, ocupan casi todo el espacio */
+  }
+}
+
+.contact {
+  padding: 20px; /* Espaciado general */
+}
+
+h1, h5 {
+  text-align: center;
+}
