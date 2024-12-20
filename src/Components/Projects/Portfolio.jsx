@@ -6,14 +6,14 @@ const { Meta } = Card;
 
 const Portfolio = () => {
   return (
-    <div className="portfolio my-3" id="portfolio" style={{ padding: "0 !important" }}>
+    <div className="portfolio my-3" id="portfolio">
       <div className="d-flex justify-content-center">
         <div className="text-center my-3">
           <h1 className="font-weight-bold my-3">Portfolio</h1>
           <h5 className="font-weight-bold subtitle"> My Projects </h5>
         </div>
       </div>
-      <div className="portfolio d-flex flex-wrap justify-content-center">
+      <div className="projects d-flex flex-wrap justify-content-center">
         {projectsData.map((project) => (
           <Card
             className="mb-3"

@@ -6,7 +6,7 @@ import "../../styles/home.css";
 const Home = () => {
   return (
     <div className="home" id="home">
-      <div className="d-flex">
+      <div className="d-flex justify-content-center">
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12">
             <h1 className="font-weight-bold big-text">
