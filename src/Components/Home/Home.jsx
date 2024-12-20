@@ -12,7 +12,7 @@ const Home = () => {
             <h1 className="font-weight-bold big-text text-left">Hi! I'm <span className="subtitle">David Cruz</span>
               <img className="home_hand ml-4" src={Hand} alt="Hand greeting" />
             </h1>
-            <h5 className="font-weight-regular profession">
+            <h5 className="font-weight-regular profession text-left">
               {" "}
               Software Engineer{" "}
             </h5>
