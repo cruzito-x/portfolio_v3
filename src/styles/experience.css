@@ -1,0 +1,15 @@
+.experience {
+  padding: 75px;
+  height: 75vh;
+  background-color: #ffffff;
+}
+
+.sub-subtitle {
+  font-size: 17.5px;
+  color: #267cec;
+  background-color: transparent;
+}
+
+.sub-subtitle:hover {
+  color: #5698ed;
+}

@@ -1,15 +1,15 @@
 import { Card, Collapse, Tag } from "antd";
-import { projectsData } from "../../data/portfolio";
-import "./projects.css";
+import { projectsData } from "./data/portfolio";
+import "../../styles/portfolio.css";
 
 const { Meta } = Card;
 
-const Projects = () => {
+const Portfolio = () => {
   return (
     <div className="portfolio my-3" id="portfolio" style={{ padding: "0 !important" }}>
       <div className="d-flex justify-content-center">
         <div className="text-center my-3">
-          <h1 className="font-weight-bold">Portfolio</h1>
+          <h1 className="font-weight-bold my-3">Portfolio</h1>
           <h5 className="font-weight-bold subtitle"> My Projects </h5>
         </div>
       </div>
@@ -29,9 +29,9 @@ const Projects = () => {
               <img
                 alt={project.title}
                 src={project.image}
+                className="p-3 rounded"
                 style={{
-                  height: "250px",
-                  borderRadius: "10px",
+                  height: "250px"
                 }}
               />
             }
@@ -99,4 +99,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Portfolio;

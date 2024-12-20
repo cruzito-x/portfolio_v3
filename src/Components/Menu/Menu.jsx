@@ -1,8 +1,15 @@
-import "./menu.css";
+import $ from 'jquery';
+import "../../styles/menu.css";
 
 const App = () => {
+  $(function () {
+    $("#dark-mode").on('click', () => {
+      localStorage.setItem("dark-mode", 1);
+    });
+  });
+
   return (
-    <nav className="navbar p-4">
+    <nav className="navbar pt-4 pl-4 pr-4 pb-0">
       <div className="first-name">
         David <span className="last-name">Cruz</span>
       </div>
@@ -30,12 +37,6 @@ const App = () => {
           >
             {" "}
             Say Hello{" "}
-          </a>
-        </li>
-        <li>
-          <a>
-            {" "}
-            <i className="bx bx-moon"></i>{" "}
           </a>
         </li>
       </ul>

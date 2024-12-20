@@ -1,0 +1,15 @@
+.skills {
+  padding: 75px;
+  height: 60vh;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.bxs-badge-check {
+  font-size: 16px;
+  margin-top: 5px;
+}

@@ -1,7 +1,7 @@
 import Icon from "../../assets/img/icon.png";
 import Hand from "../../assets/svg/hand.svg";
 import Send from "../../assets/svg/send.svg";
-import "./home.css";
+import "../../styles/home.css";
 
 const Home = () => {
   return (
@@ -17,9 +17,9 @@ const Home = () => {
               {" "}
               Software Engineer{" "}
             </h5>
-            <p className="paragraph mt-4">
+            <p className="paragraph mt-5">
               Systems engineer based in El Salvador. I specialize in responsive
-              UI/UX, front-end design and development, I also have knowledge as
+              UI/UX and front-end design and development, I also have knowledge as
               a back-end. I am passionate about the IT world and constant
               innovation.
             </p>

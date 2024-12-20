@@ -1,6 +1,6 @@
 import { Timeline } from "antd";
 import $ from "jquery";
-import "./experience.css";
+import "../../styles/experience.css";
 
 const Experience = () => {
   $(function () {
@@ -25,21 +25,19 @@ const Experience = () => {
           <h5 className="font-weight-bold subtitle"> My history </h5>
         </div>
       </div>
-      <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center mt-5">
         <button
           className="font-weight-bold border-0 sub-subtitle mr-2"
           id="laboral-timeline-btn"
         >
-          <i className="bx bxs-briefcase"></i>
-          Experience
+          <i className="bx bxs-briefcase"></i> Experience
         </button>
         |
         <button
           className="font-weight-bold border-0 sub-subtitle ml-2"
           id="academic-timeline-btn"
         >
-          <i className="bx bxs-graduation"></i>
-          Education
+          <i className="bx bxs-graduation"></i> Education
         </button>
       </div>
       <div className="d-flex justify-content-center mt-4">
@@ -48,6 +46,7 @@ const Experience = () => {
           mode="alternate"
           items={[
             {
+              key: "laboral-1",
               children: [
                 <>
                   <h6 className="font-weight-bold">Software Developer</h6>
@@ -55,11 +54,12 @@ const Experience = () => {
                     {" "}
                     CodeEye Solutions Inc. (Canadá - El Salvador){" "}
                   </h6>
-                  <p>Apr. 2023 - Jun. 2024</p>
+                  <label>Apr. 2023 - Jun. 2024</label>
                 </>,
               ],
             },
             {
+              key: "laboral-2",
               children: [
                 <>
                   <h6 className="font-weight-bold">Technician's Assistant</h6>
@@ -67,7 +67,7 @@ const Experience = () => {
                     {" "}
                     Caja Mutual de los Empleados del MINED. (El Salvador){" "}
                   </h6>
-                  <p>Feb. 2019 - Aug. 2019</p>
+                  <label>Feb. 2019 - Aug. 2019</label>
                 </>,
               ],
             },
@@ -79,6 +79,7 @@ const Experience = () => {
           id="academic-timeline"
           items={[
             {
+              key: "academic-1",
               children: [
                 <>
                   <h6 className="font-weight-bold">
@@ -86,13 +87,14 @@ const Experience = () => {
                   </h6>
                   <h6 className="font-weight-light">
                     {" "}
-                    Universidad Tecnológica de El Salvador (UTEC).{" "}
+                    Universidad Tecnológica de El Salvador. (UTEC){" "}
                   </h6>
-                  <p>Present</p>
+                  <label>Present</label>
                 </>,
               ],
             },
             {
+              key: "academic-2",
               children: [
                 <>
                   <h6 className="font-weight-bold">
@@ -100,9 +102,9 @@ const Experience = () => {
                   </h6>
                   <h6 className="font-weight-light">
                     {" "}
-                    Universidad Tecnológica de El Salvador (UTEC).{" "}
+                    Universidad Tecnológica de El Salvador. (UTEC){" "}
                   </h6>
-                  <p>2020 - 2024</p>
+                  <label>2020 - 2024</label>
                 </>,
               ],
             },

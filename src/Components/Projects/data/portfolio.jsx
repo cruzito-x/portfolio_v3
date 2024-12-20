@@ -1,12 +1,12 @@
-import Work1 from "../assets/img/Projects/work1.png";
-import Work2 from "../assets/img/Projects/work2.png";
-import Work3 from "../assets/img/Projects/work3.png";
-import Work4 from "../assets/img/Projects/work4.png";
-import Work5 from "../assets/img/Projects/work5.png";
-import Work6 from "../assets/img/Projects/work6.png";
-import Work7 from "../assets/img/Projects/work7.png";
-import Work8 from "../assets/img/Designs/work1.png";
-import Work9 from "../assets/img/Designs/work2.png";
+import Work1 from "../../../assets/img/Projects/work1.png";
+import Work2 from "../../../assets/img/Projects/work2.png";
+import Work3 from "../../../assets/img/Projects/work3.png";
+import Work4 from "../../../assets/img/Projects/work4.png";
+import Work5 from "../../../assets/img/Projects/work5.png";
+import Work6 from "../../../assets/img/Projects/work6.png";
+import Work7 from "../../../assets/img/Projects/work7.png";
+import Work8 from "../../../assets/img/Designs/work1.png";
+import Work9 from "../../../assets/img/Designs/work2.png";
 // import Work10 from "../../assets/img/Designs/work3.png";
 
 /* =================== TECHS ICONS =================== */

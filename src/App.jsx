@@ -4,7 +4,7 @@ import Experience from "./Components/Experience/Experience"
 import Footer from "./Components/Footer/Footer"
 import Home from "./Components/Home/Home"
 import Menu from "./Components/Menu/Menu"
-import Projects from "./Components/Projects/Projects"
+import Portfolio from "./Components/Projects/Portfolio"
 import Skills from "./Components/Skills/Skills"
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
     <About/>
     <Experience/>
     <Skills/>
-    <Projects/>
+    <Portfolio/>
     <Contact/>
     <Footer/>
     </>
