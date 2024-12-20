@@ -1,11 +1,11 @@
-import About from "./Components/About/About"
-import Contact from "./Components/Contact/Contact"
-import Experience from "./Components/Experience/Experience"
-import Footer from "./Components/Footer/Footer"
-import Home from "./Components/Home/Home"
-import Menu from "./Components/Menu/Menu"
-import Portfolio from "./Components/Projects/Portfolio"
-import Skills from "./Components/Skills/Skills"
+import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
+import Experience from "./components/Experience/Experience";
+import Footer from "./components/Footer/Footer";
+import Home from "./components/Home/Home";
+import Menu from "./components/Menu/Menu";
+import Portfolio from "./components/Projects/Portfolio";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   return (
