@@ -1,4 +1,6 @@
 import Profile from "../../assets/img/profile.png";
+import Download from "../../assets/svg/files.svg";
+import CV from "../../assets/docs/David Cruz - CV.pdf";
 import "../../styles/about.css";
 
 const About = () => {
@@ -83,7 +85,18 @@ const About = () => {
             , a creative passion that allows me to bring my favorite characters
             to life through crafting and design. This hobby enhances my
             creativity and problem-solving skills, which I also bring to my work
-            as an engineer.
+            as an engineer. <br />
+            <br />
+            <div className="text-center">
+              <a
+                href={CV}
+                className="btn btn-primary hello-btn"
+                target="_blank"
+                title="Download CV"
+              >
+                Download CV <img src={Download} alt="Download icon" />
+              </a>
+            </div>
           </p>
         </div>
       </div>
