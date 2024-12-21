@@ -3,7 +3,6 @@
   background-color: #ffffff !important;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 5px;
   font-weight: bold;
   position: sticky;
   top: 0;
@@ -20,7 +19,6 @@
 
 .navbar-menu {
   list-style: none;
-  display: flex;
   gap: 20px;
 }
 

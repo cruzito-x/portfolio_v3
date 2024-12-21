@@ -13,7 +13,7 @@ const App = () => {
       <div className="first-name">
         David <span className="last-name">Cruz</span>
       </div>
-      <ul className="navbar-menu">
+      <ul className="navbar-menu mt-2">
         <li>
           <a href="#home">Home</a>
         </li>

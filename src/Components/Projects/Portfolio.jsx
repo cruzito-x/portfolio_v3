@@ -6,7 +6,7 @@ const { Meta } = Card;
 
 const Portfolio = () => {
   return (
-    <div className="portfolio my-3" id="portfolio">
+    <div className="portfolio" id="portfolio">
       <div className="d-flex justify-content-center">
         <div className="text-center my-3">
           <h1 className="font-weight-bold my-3">Portfolio</h1>
