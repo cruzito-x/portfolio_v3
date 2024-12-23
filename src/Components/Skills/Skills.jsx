@@ -17,7 +17,7 @@ const Skills = () => {
               className="mt-3 shadow"
               hoverable={true}
               style={{
-                width: 420,
+                width: 405,
                 borderRadius: "10px",
                 overflow: "hidden",
               }}
@@ -64,7 +64,7 @@ const Skills = () => {
               className="mt-3 shadow"
               hoverable={true}
               style={{
-                width: 420,
+                width: 405,
                 borderRadius: "10px",
                 overflow: "hidden",
               }}
@@ -111,7 +111,7 @@ const Skills = () => {
               className="mt-3 shadow"
               hoverable={true}
               style={{
-                width: 420,
+                width: 405,
                 borderRadius: "10px",
                 overflow: "hidden",
               }}

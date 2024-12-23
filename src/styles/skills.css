@@ -12,3 +12,9 @@ li {
   font-size: 16px;
   margin-top: 5px;
 }
+
+@media (max-width: 576px) {
+  .skills {
+    padding: 50px;
+  }
+}
