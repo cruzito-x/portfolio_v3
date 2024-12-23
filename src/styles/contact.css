@@ -2,16 +2,16 @@
   padding: 75px;
 }
 .card-responsive {
-  width: 90%; /* Cards ocupan 90% del contenedor */
-  max-width: 500px; /* Límite máximo para evitar que se vean demasiado grandes */
+  width: 90%;
+  max-width: 500px;
   border-radius: 10px;
   overflow: hidden;
-  margin: 0 auto; /* Centra las cards */
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
   .card-responsive {
-    width: 95%; /* En dispositivos más pequeños, ocupan casi todo el espacio */
+    width: 100%;
   }
 }
 

@@ -39,8 +39,8 @@ const About = () => {
               </defs>
               <image
                 xlinkHref={Profile}
-                x="0"
-                y="0"
+                x="-5"
+                y="40"
                 width="500"
                 height="500"
                 style={{ clipPath: "url(#blobClip)" }}
@@ -87,17 +87,18 @@ const About = () => {
             creativity and problem-solving skills, which I also bring to my work
             as an engineer. <br />
             <br />
-            <div className="text-center">
-              <a
-                href={CV}
-                className="btn btn-primary hello-btn"
-                target="_blank"
-                title="Download CV"
-              >
-                Download CV <img src={Download} alt="Download icon" />
-              </a>
-            </div>
           </p>
+        </div>
+        <div className="col-md-6 col-sm-0"></div>
+        <div className="col-md-6 col-sm-12 text-center">
+          <a
+            href={CV}
+            className="btn btn-primary hello-btn justify-content-center"
+            target="_blank"
+            title="Download CV"
+          >
+            Download CV <img src={Download} alt="Download icon" />
+          </a>
         </div>
       </div>
     </div>

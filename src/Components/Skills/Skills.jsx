@@ -52,7 +52,7 @@ const Skills = () => {
                     </li>
                     <li>
                       {" "}
-                      <i className="bx bxs-badge-check subtitle"></i> Angular17+{" "}
+                      <i className="bx bxs-badge-check subtitle"></i> Angular{" "}
                     </li>
                   </ul>
                 </div>
