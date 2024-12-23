@@ -15,7 +15,7 @@ const Skills = () => {
           <div className="col-lg-4 col-md-4 col-sm-12">
             <Card
               className="mt-3 shadow"
-              hoverable={true}
+              hoverable
               style={{
                 width: 405,
                 borderRadius: "10px",
@@ -62,7 +62,7 @@ const Skills = () => {
           <div className="col-lg-4 col-md-4 col-sm-12">
             <Card
               className="mt-3 shadow"
-              hoverable={true}
+              hoverable
               style={{
                 width: 405,
                 borderRadius: "10px",
@@ -109,7 +109,7 @@ const Skills = () => {
           <div className="col-lg-4 col-md-4 col-sm-12">
             <Card
               className="mt-3 shadow"
-              hoverable={true}
+              hoverable
               style={{
                 width: 405,
                 borderRadius: "10px",
