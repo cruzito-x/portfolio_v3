@@ -39,7 +39,7 @@ const Portfolio = () => {
             <Meta title={project.title} description={project.description} />
             <Collapse
               className="mt-3"
-              
+              defaultActiveKey={[project.id]}
               items={[
                 {
                   key: project.id,

@@ -7,7 +7,6 @@ import Work6 from "../../../assets/img/Projects/work6.png";
 import Work7 from "../../../assets/img/Projects/work7.png";
 import Work8 from "../../../assets/img/Designs/work1.png";
 import Work9 from "../../../assets/img/Designs/work2.png";
-// import Work10 from "../../assets/img/Designs/work3.png";
 
 /* =================== TECHS ICONS =================== */
 
@@ -74,7 +73,7 @@ const techData = {
  },
  express: {
   name: "Express.js",
-  color: "default",
+  color: "lime",
   icon: <i className="bx bxl-nodejs"></i>
  },
  mysql: {
@@ -94,7 +93,7 @@ const techData = {
  },
  figma: {
   name: "Figma",
-  color: "red",
+  color: "error",
   icon: <i className="bx bxl-figma"></i>
  },
  photoshop: {
@@ -108,7 +107,7 @@ export const projectsData = [
  {
   id: 1,
   image: Work1,
-  title: "Movies & Series finder",
+  title: "Movies & Series Finder",
   description: "Web platform that allows you to search for series and movies through integration with the OMDBAPI API. It provides detailed information on titles, synopsis and relevant data to facilitate content selection.",
   category: "web",
   techs: [
@@ -131,7 +130,7 @@ export const projectsData = [
  {
   id: 2,
   image: Work2,
-  title: "Weather visualizer",
+  title: "Weather Visualizer",
   description: "Web application designed to visualize the state of the weather in real time, using the OpenWeatherAPI API. It provides detailed weather information such as temperature, humidity and current weather conditions.",
   category: "web",
   techs: [
@@ -160,7 +159,7 @@ export const projectsData = [
   {
    id: 3,
    image: Work3,
-   title: "Color scales generator",
+   title: "Color Scales Generator",
    description: "Web tool that allows you to generate custom color scales, ideal for designers and developers looking to optimize the creation of harmonious and effective color palettes.",
    category: "web",
    techs: [
@@ -212,7 +211,7 @@ export const projectsData = [
   {
    id: 5,
    image: Work5,
-   title: "Chat application",
+   title: "Chat Application",
    description: "Messaging application designed to facilitate real-time communication. Built with modern technologies, it includes features for sending and receiving messages in a seamless manner.",
    category: "app",
    techs: [
@@ -240,7 +239,7 @@ export const projectsData = [
   {
    id: 6,
    image: Work6,
-   title: "Bookstore sales system",
+   title: "Bookstore Sales System",
    description: "Web invoicing system oriented to sales management in bookstores. It works as a CRM, allowing the visualization of quantifiable data, sales analysis and efficient inventory management.",
    category: "web",
    techs: [
@@ -268,7 +267,7 @@ export const projectsData = [
   {
     id: 7,
     image: Work7,
-    title: "Tech store e-commerce app",
+    title: "Tech Store E-commerce App",
     description: "E-commerce application developed for a technology products store. It includes catalog, shopping cart and order processing functionalities, ensuring an optimized user experience.",
     category: "app",
     techs: [
@@ -296,7 +295,7 @@ export const projectsData = [
   {
     id: 8,
     image: Work8,
-    title: "Dashboard design",
+    title: "Dashboard Design",
     description: "Professional design of a dashboard focused on vulnerability management and visualization. This design prioritizes clarity, usability and organization of critical information.",
     category: "design",
     techs: [
@@ -312,7 +311,7 @@ export const projectsData = [
   {
     id: 9,
     image: Work9,
-    title: "App for neurodivergent people",
+    title: "App for Neurodivergent People",
     description: "Conceptual design of a mobile application for neurodivergent people. The proposal focuses on accessibility, usability and an inclusive experience for diverse users.",
     category: "design",
     techs: [
