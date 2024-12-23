@@ -40,7 +40,7 @@ const About = () => {
               <image
                 xlinkHref={Profile}
                 x="-5"
-                y="40"
+                y="35"
                 width="500"
                 height="500"
                 style={{ clipPath: "url(#blobClip)" }}
