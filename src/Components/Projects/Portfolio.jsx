@@ -1,7 +1,6 @@
 import { Card, Collapse, Tag } from "antd";
 import { projectsData } from "./data/portfolio";
 import "../../styles/portfolio.css";
-
 const { Meta } = Card;
 
 const Portfolio = () => {
@@ -9,14 +8,14 @@ const Portfolio = () => {
     <div className="portfolio" id="portfolio">
       <div className="d-flex justify-content-center">
         <div className="text-center my-3">
-          <h1 className="font-weight-bold my-3">Portfolio</h1>
+          <h1 className="font-weight-bold mt-3">Portfolio</h1>
           <h5 className="font-weight-bold subtitle"> My Projects </h5>
         </div>
       </div>
       <div className="projects d-flex flex-wrap justify-content-center">
         {projectsData.map((project) => (
           <Card
-            className="mb-3"
+            className="mb-4"
             key={project.id}
             hoverable
             style={{

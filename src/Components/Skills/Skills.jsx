@@ -126,7 +126,7 @@ const Skills = () => {
                     </li>
                     <li>
                       {" "}
-                      <i className="bx bxs-badge-check subtitle"></i> UML{" "}
+                      <i className="bx bxs-badge-check subtitle"></i> Git{" "}
                     </li>
                     <li>
                       {" "}
@@ -142,11 +142,11 @@ const Skills = () => {
                     </li>
                     <li>
                       {" "}
-                      <i className="bx bxs-badge-check subtitle"></i> Git{" "}
+                      <i className="bx bxs-badge-check subtitle"></i> ETL{" "}
                     </li>
                     <li>
                       {" "}
-                      <i className="bx bxs-badge-check subtitle"></i> ETL{" "}
+                      <i className="bx bxs-badge-check subtitle"></i> UML{" "}
                     </li>
                   </ul>
                 </div>
