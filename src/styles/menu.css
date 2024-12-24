@@ -122,7 +122,11 @@
 }
 
 @media screen and (max-width: 768px) {
-  .navbar {
+  .navbar-menu {
+    margin-left: -50px;
+  }
+
+  .navbar-menu .btn {
     display: none;
   }
 }
