@@ -1,7 +1,7 @@
 import Icon from "../../assets/img/icon.png";
 import Hand from "../../assets/svg/hand.svg";
 import Send from "../../assets/svg/send.svg";
-import Scroll from "../../assets/svg/scroll.svg";
+// import Scroll from "../../assets/svg/scroll.svg";
 import "../../styles/home.css";
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12 mt-5">
             <h1 className="font-weight-bold big-text text-left">
-              Hi! I'm <span className="subtitle">David Cruz</span>
+              Hi! I&apos;m <span className="subtitle">David Cruz</span>
               <img className="home_hand ml-4" src={Hand} alt="Hand greeting" />
             </h1>
             <h5 className="font-weight-regular profession text-left">

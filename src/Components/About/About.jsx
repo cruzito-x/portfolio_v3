@@ -9,7 +9,7 @@ const About = () => {
       <div className="d-flex justify-content-center">
         <div className="text-center my-3">
           <h1 className="font-weight-bold">About me</h1>
-          <h5 className="font-weight-bold subtitle"> Who's David Cruz? </h5>
+          <h5 className="font-weight-bold subtitle"> Who&apos;s David Cruz? </h5>
         </div>
       </div>
       <div className="row">
@@ -51,7 +51,7 @@ const About = () => {
         </div>
         <div className="col-md-6 col-sm-12 d-flex align-items-center">
           <p>
-            I'm currently 22 years old, I'm a graduate student of{" "}
+            I&apos;m currently 22 years old, I&apos;m a graduate student of{" "}
             <span className="subtitle font-weight-bold">
               Systems and Computer Engineering
             </span>
@@ -71,14 +71,14 @@ const About = () => {
             </span>
             .
             <br /> <br />
-            I'm currently pursuing a pre-specialty in{" "}
+            I&apos;m currently pursuing a pre-specialty in{" "}
             <span className="subtitle font-weight-bold">Data Science</span> at
             the{" "}
             <span className="subtitle font-weight-bold">
               Universidad Tecnológica de El Salvador
             </span>
             .
-            <br /> <br /> Beyond my professional life, I'm also an{" "}
+            <br /> <br /> Beyond my professional life, I&apos;m also an{" "}
             <span className="subtitle font-weight-bold">
               occasional cosplayer
             </span>

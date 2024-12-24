@@ -1,16 +1,39 @@
-import $ from 'jquery';
+import { useState } from "react";
+import $ from "jquery";
 import "../../styles/menu.css";
 
 const App = () => {
-  $(function () {
-    $("#dark-mode").on('click', () => {
-      localStorage.setItem("dark-mode", 1);
-    });
-  });
+  const [darkMode, setDarkMode] = useState(0);
+
+  const handleToggle = () => {
+    const newMode = darkMode === 0 ? 1 : 0;
+    setDarkMode(newMode);
+
+    if (newMode === 1) {
+      $("body, .navbar, .home, .experience, .contact").addClass(
+        "dark"
+      );
+      localStorage.setItem("dark-mode", newMode);
+    } else {
+      $("body, .navbar, .home, .experience, .contact").removeClass(
+        "dark"
+      );
+    }
+  };
 
   return (
-    <nav className="navbar pt-4 pl-4 pr-4 pb-0">
-      <div className="first-name">
+    <nav
+      className={
+        darkMode === 1
+          ? "navbar pt-4 pl-4 pr-4 pb-0 dark"
+          : "navbar pt-4 pl-4 pr-4 pb-0"
+      }
+    >
+      <div
+        className="first-name"
+        onClick={handleToggle}
+        style={{ cursor: "pointer" }}
+      >
         David <span className="last-name">Cruz</span>
       </div>
       <ul className="navbar-menu mt-2">
