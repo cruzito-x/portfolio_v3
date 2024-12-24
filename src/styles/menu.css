@@ -45,7 +45,7 @@
 }
 
 .dark {
-  background-color: #0E1110;
+  background-color: #1C1B27;
   color: #ffffff;
 }
 
@@ -61,10 +61,15 @@
   background-color: #fefefe;
 }
 
-.dark .skills .ant-card, .dark .portfolio .ant-card {
-  background-color: #0e1110;
+.dark .skills .ant-card, .dark .portfolio .ant-card, .dark .contact .ant-card {
+  background-color: #1c1b27;
   color: #ffffff;
   border: none;
+  box-shadow: inset 0 0 0 .2px #ffffff;
+}
+
+.dark .portfolio .ant-card:hover {
+  box-shadow: inset 0 0 0 .2px #1c1b27;
 }
 
 .dark .ant-card-meta-title {
@@ -72,26 +77,42 @@
 }
 
 .dark .ant-card-meta-description, .dark .contact .ant-card h5, .dark .contact label {
-  color: #b8b8b8e0;
-}
-
-.dark .ant-collapse {
-  background-color: transparent;
   color: #ffffff;
 }
 
+.dark .ant-collapse, .dark .ant-collapse-content-box {
+  border: none;
+  box-shadow: inset 0 0 0 .2px #ffffff;
+}
+
+.dark .ant-collapse-content-box {
+  border-radius: 0px 0px 7px 7px;
+}
+
+.dark .ant-collapse-expand-icon, .dark .ant-collapse-header-text {
+  background-color: #1c1b27;
+  color: #ffffff;
+}
+
+.dark .ant-collapse-content-box {
+  background-color: #1c1b27;
+}
+
 .dark .portfolio {
-  background-color: #14181a;
+  background-color: #252535;
 }
 
 .dark .contact .ant-card {
   background-color: transparent;
-  color: #ffffff;
-  border: .5px solid #ffffff;
 }
 
-.dark.contact input,.dark.contact textarea {
-  background-color: #14181a;
+.dark .contact input, .dark .contact textarea {
+  background-color: #1c1b27;
+  color: #ffffff;
+  box-shadow: inset 0 0 0 .2px #ffffff;
+}
+
+.dark .contact input::placeholder, .dark .contact textarea::placeholder {
   color: #ffffff;
 }
 
