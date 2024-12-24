@@ -62,7 +62,7 @@ const Contact = () => {
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d31011.267681683865!2d-89.1836785!3d13.6936937!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2ssv!4v1734722417868!5m2!1ses-419!2ssv"
                 width="100%"
-                height="390"
+                height="410"
                 style={{ border: 0 }}
                 loading="lazy"
                 title="Found Me"
