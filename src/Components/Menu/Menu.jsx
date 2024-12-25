@@ -25,8 +25,8 @@ const App = () => {
     <nav
       className={
         darkMode === 1
-          ? "navbar pt-4 pl-4 pr-4 pb-0 dark"
-          : "navbar pt-4 pl-4 pr-4 pb-0"
+          ? "navbar pt-4 pl-4 pr-4 pb-0 d-none d-md-flex dark"
+          : "navbar pt-4 pl-4 pr-4 pb-0 d-none d-md-flex"
       }
     >
       <div
