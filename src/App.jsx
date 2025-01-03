@@ -10,16 +10,18 @@ import Skills from "./components/Skills/Skills";
 function App() {
   return (
     <>
-    <Menu/>
-    <Home/>
-    <About/>
-    <Experience/>
-    <Skills/>
-    <Portfolio/>
-    <Contact/>
-    <Footer/>
+      <Menu />
+      <main>
+        <Home />
+        <About />
+        <Experience />
+        <Skills />
+        <Portfolio />
+        <Contact />
+      </main>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

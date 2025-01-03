@@ -183,7 +183,7 @@ export const projectsData = [
    id: 4,
    image: Work4,
    title: "Translator",
-   description: "Real-time language translator developed to offer a simple and efficient experience in the instantaneous translation of text between different languages.",
+   description: "Real-time language translator developed using the MyMemory API to offer a simple and efficient experience in the instant translation of texts between different languages.",
    category: "web",
    techs: [
     {

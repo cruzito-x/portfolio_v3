@@ -10,16 +10,18 @@ const App = () => {
     setDarkMode(newMode);
 
     if (newMode === 1) {
-      $("body, .navbar, .home, .experience, .contact").addClass(
-        "dark"
-      );
+      $("body, .navbar, .home, .experience, .contact").addClass("dark");
       localStorage.setItem("dark-mode", newMode);
     } else {
-      $("body, .navbar, .home, .experience, .contact").removeClass(
-        "dark"
-      );
+      $("body, .navbar, .home, .experience, .contact").removeClass("dark");
     }
   };
+
+  $(function () {
+    if ($(this).scrollTop() >= 80) {
+      $("#navbar").addClass("shadow");
+    }
+  });
 
   return (
     <nav
@@ -28,6 +30,7 @@ const App = () => {
           ? "navbar pt-4 pl-4 pr-4 pb-0 d-none d-md-flex dark"
           : "navbar pt-4 pl-4 pr-4 pb-0 d-none d-md-flex"
       }
+      id="navbar"
     >
       <div
         className="first-name"
