@@ -322,7 +322,7 @@ export const projectsData = [
       name: techData.figma.name
      }
     ],
-    design_url: "https://www.figma.com/design/FPWVYw0NSw8f4FefbRZsmC/Untitled?node-id=0-1&t=UCXZUj15c2HJwAkQ-1"
+    design_url: "https://www.figma.com/design/g039NhW9ZAy8NcF2knXqZk/MindMap?m=auto&t=HpVDzN4iSlcsV6dT-6"
   }
 ];
 
