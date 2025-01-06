@@ -25,7 +25,7 @@ const Skills = () => {
             >
               <h6 className="font-weight-bold text-center">Frontend Skills</h6>
               <div className="row">
-                <div className="col-6">
+                <div className="col-lg-6 col-sm-12">
                   <ul className="text-start">
                     <li>
                       {" "}
@@ -41,7 +41,7 @@ const Skills = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="col-6">
+                <div className="col-lg-6 col-sm-12">
                   <ul>
                     <li>
                       {" "}
@@ -73,7 +73,7 @@ const Skills = () => {
             >
               <h6 className="font-weight-bold text-center">Backend Skills</h6>
               <div className="row">
-                <div className="col-6">
+                <div className="col-lg-6 col-sm-12">
                   <ul className="text-start">
                     <li>
                       {" "}
@@ -89,7 +89,7 @@ const Skills = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="col-6">
+                <div className="col-lg-6 col-sm-12">
                   <ul>
                     <li>
                       {" "}
@@ -121,7 +121,7 @@ const Skills = () => {
             >
               <h6 className="font-weight-bold text-center">Other Skills</h6>
               <div className="row">
-                <div className="col-6">
+                <div className="col-lg-6 col-sm-12">
                   <ul className="text-start">
                     <li>
                       {" "}
@@ -137,7 +137,7 @@ const Skills = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="col-6">
+                <div className="col-lg-6 col-sm-12">
                   <ul>
                     <li>
                       {" "}
